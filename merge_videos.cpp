@@ -5,8 +5,6 @@
 #include <vector>
 
 void getFiles(std::string path, std::vector<std::string>& files, std::vector<std::string> &names) {
-	 ownname只存储文件的名称(eg.     data1.txt)*/
-
 	 //文件句柄
 	long   hFile = 0;
 	//文件信息
